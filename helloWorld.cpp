@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-    cout<< "hello world";
+    int sum =4;
+    cout<< "hello world"<<sum;
     return 0;
 }
