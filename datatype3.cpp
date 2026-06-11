@@ -24,7 +24,7 @@ int main(){
     // cout<<". \nThe value of c is "<<c;
     // cout<<".\nThe value of d id "<<d;
     // cout<<global;
-    cout<<is_true;// 1 in optput represents true
+    cout<<is_true;// 1 in optput represents true 0 represents false
 
     return 0;
 }
