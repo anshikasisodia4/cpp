@@ -1,1 +1,1 @@
-int global=6;
+ // break;
