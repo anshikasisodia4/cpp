@@ -2,14 +2,19 @@
 using namespace std;
 
 int main(){
+
     for (int i = 0; i < 4; i++)
     {
         cout<<i<<endl;
         
     }
+
+
     // infinite for loop
-    for(int i=0;32<45;i++){
-        cout<<i<<endl;
-    }
+    // for(int i=0;32<45;i++){
+    //     cout<<i<<endl;
+    // }
+
+
     return 0;
 }
