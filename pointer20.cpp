@@ -15,9 +15,9 @@ int main(){
 
      // Dereference of operator
      cout<<"The value at address b is "<<*b<<endl;    //value of a
-    cout<<endl;          
+     cout<<endl;          
      
-     // Pointer to pointer
+       // Pointer to pointer
      int **c;
      c=&b;
      cout<<"The address of  b is "<<&b<<endl;    // value of c
