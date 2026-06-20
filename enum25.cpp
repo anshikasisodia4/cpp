@@ -11,8 +11,8 @@ int main(){
     cout<<m2<<endl;
     cout<<endl;
 
-    cout<<(m1 == 0)<<endl;   // true this will return 1
-    cout<<(m1==1)<<endl;
+    cout<<(m1 == 0)<<endl;     // true this will return 1
+    cout<<(m1==1)<<endl;       // false this will return 0
     cout<<endl;
 
     cout<<breakfast<<endl;    //0
