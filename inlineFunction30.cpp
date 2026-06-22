@@ -3,6 +3,7 @@ using namespace std;
 
 //inline function saves time uses only when function is very simple and not complex
 //during complie time the compiler replaces the ufnction call with the cpde itself
+  // should not use when recursion, static variables
 
 inline int product(int a , int b ){
     return a*b;                            
