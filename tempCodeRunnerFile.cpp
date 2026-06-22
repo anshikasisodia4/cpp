@@ -1,1 +1,1 @@
- // break;
+ cout<<"The product is :"<<product(a,b)<<endl;
