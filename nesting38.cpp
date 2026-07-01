@@ -36,7 +36,7 @@ void binary ::chk_bin(void)
 
 void binary ::ones_complement(void)
 {
-    chk_bin();
+    chk_bin();    // nesting 
     for (int i = 0; i < s.length(); i++)
     {
         if (s.at(i) == '0')
@@ -63,7 +63,7 @@ int main()
 {
     binary b;
     b.read();
-    // b.chk_bin();
+    // b.chk_bin();   // this is private
     b.display();
     b.ones_complement();
     b.display();
