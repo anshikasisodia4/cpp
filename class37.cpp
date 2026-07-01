@@ -32,7 +32,7 @@ int main(){
     Anshika.e =22;
     Anshika.d= 24;
 
-    // this will give an error
+    // this will give an error as a is private
     // Anshika.a=25;
     
     // a b and c are private 
