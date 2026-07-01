@@ -4,11 +4,13 @@ using namespace std;
 
 class binary
 { // member of class are private by default
+   private:
     string s;
+     void chk_bin(void);
 
 public:
     void read(void);
-    void chk_bin(void);
+    
     void ones_complement(void);
     void display();
 };
@@ -34,6 +36,7 @@ void binary ::chk_bin(void)
 
 void binary ::ones_complement(void)
 {
+    chk_bin();
     for (int i = 0; i < s.length(); i++)
     {
         if (s.at(i) == '0')
@@ -60,7 +63,7 @@ int main()
 {
     binary b;
     b.read();
-    b.chk_bin();
+    // b.chk_bin();
     b.display();
     b.ones_complement();
     b.display();
