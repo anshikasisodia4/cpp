@@ -11,7 +11,7 @@ public:
         cout << "Your number is " << a << " + " << b << "i" << endl;
     }
 };
-// parametrized constructor
+// parametrized constructor  as it takes2 parameters
 Complex :: Complex(int x , int y){
     a = x;
     b = y;
@@ -20,7 +20,7 @@ Complex :: Complex(int x , int y){
 int main()
 {
     // Implicit Call
-    
+
     Complex a(4,6);
      a.printNumber();
 
