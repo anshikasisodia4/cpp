@@ -24,7 +24,7 @@ Complex::Complex(void)
     // if no valuye allocated garbage value will be set by compiler
     a = 0;
     b = 0;
-    cout<<"Hello World"<<endl;
+    cout << "Hello World" << endl;
 }
 
 int main()
@@ -39,5 +39,5 @@ int main()
  2. they are automatically invoked whenever the object is created
  3. they cannot return values and do not have return types
  4. it can have default arguments
- 5. we cannot referred to their address 
+ 5. we cannot referred to their address
 */
