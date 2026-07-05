@@ -18,7 +18,7 @@ public:
         cout << "Your number is " << a << " + " << b << "i" << endl;
     }
 };
-// default constructor as it takes no parameter
+// default constructor as it accepts no parameter
 Complex::Complex(void)
 {
     // if no valuye allocated garbage value will be set by compiler
