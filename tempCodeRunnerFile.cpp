@@ -1,1 +1,1 @@
- cout<<"The product is :"<<product(a,b)<<endl;
+ Simple s(1);
