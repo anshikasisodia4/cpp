@@ -36,10 +36,11 @@ int main()
     z1.display();
     // z1 should resemble z or x or y
 
-    z2 = z;        // copy constructor not called
+    z2 = z; // copy constructor not called
     z2.display();
 
     Number z3 = z; // copy constructor invoked
     z3.display();
+
     return 0;
 }
