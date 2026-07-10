@@ -15,7 +15,7 @@ class D : public B
 
 public:
     // the derived class inherits the base function automatically if no public function in derived class
-    //  here public function is present so new say method overwrites the function in B class
+    //  here public function is present so new say() method overwrites the function in B class
     void say()
     {
         cout << "Hi" << endl;
