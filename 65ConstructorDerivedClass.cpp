@@ -50,18 +50,22 @@ public:
     }
 };
 
+// class Derived : public Base2, public Base1
 class Derived : public Base1, public Base2
 {
     int derived1, derived2;
 
 public:
+    // Derived(int a, int b, int c, int d) :Base2(b), Base1(a)
+    // order does not matter here
+
     Derived(int a, int b, int c, int d) : Base1(a), Base2(b)
     {
         derived1 = c;
         derived2 = d;
         cout << "Derived class constructor called" << endl;
     }
-     void print_DataDerived(void)
+    void print_DataDerived(void)
     {
         cout << "The value of derived1 is " << derived1 << endl;
         cout << "The value of derived2 is " << derived2 << endl;
@@ -70,11 +74,10 @@ public:
 
 int main()
 {
-    Derived anshika(1,2,3,4);
+    Derived anshika(1, 2, 3, 4);
     anshika.print_DataBase1();
     anshika.print_DataBase2();
     anshika.print_DataDerived();
-    
 
     return 0;
 }
