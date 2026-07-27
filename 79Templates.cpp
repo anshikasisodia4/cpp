@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// class templates with multiple (comma seperated) parameters(one ,two or more than two)
 /*
 template <class T1, class T2>
 class nameOfClass{
@@ -28,7 +28,7 @@ public:
 
 int main()
 {
-    Myclass<int, float> obj(2, 7.8);
+    Myclass<char, float> obj('a', 7.8);
     obj.display();
 
     return 0;
