@@ -1,1 +1,1 @@
- // arr[1] = 20;
+ // Anshika<float> s(6.75);
